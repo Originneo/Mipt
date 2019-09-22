@@ -23,6 +23,7 @@
 		F23FB72C23375A9B00C30FC6 /* AOStartViewControllerCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F23FB72B23375A9B00C30FC6 /* AOStartViewControllerCollectionViewCell.m */; };
 		F23FB72D2337A71700C30FC6 /* RouterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F23FB710233672BA00C30FC6 /* RouterViewController.m */; };
 		F23FB7302337B39900C30FC6 /* AOPictureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F23FB72F2337B39900C30FC6 /* AOPictureViewController.m */; };
+		F23FB7332337B8A900C30FC6 /* AOSecondPictureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F23FB7322337B8A900C30FC6 /* AOSecondPictureViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -74,6 +75,8 @@
 		F23FB72B23375A9B00C30FC6 /* AOStartViewControllerCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AOStartViewControllerCollectionViewCell.m; sourceTree = "<group>"; };
 		F23FB72E2337B39900C30FC6 /* AOPictureViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AOPictureViewController.h; sourceTree = "<group>"; };
 		F23FB72F2337B39900C30FC6 /* AOPictureViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AOPictureViewController.m; sourceTree = "<group>"; };
+		F23FB7312337B8A900C30FC6 /* AOSecondPictureViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AOSecondPictureViewController.h; sourceTree = "<group>"; };
+		F23FB7322337B8A900C30FC6 /* AOSecondPictureViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AOSecondPictureViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -136,6 +139,8 @@
 				F23FB71A2336A11600C30FC6 /* MainViewControllerTableViewCell.m */,
 				F23FB72E2337B39900C30FC6 /* AOPictureViewController.h */,
 				F23FB72F2337B39900C30FC6 /* AOPictureViewController.m */,
+				F23FB7312337B8A900C30FC6 /* AOSecondPictureViewController.h */,
+				F23FB7322337B8A900C30FC6 /* AOSecondPictureViewController.m */,
 				F23FB72A23375A9B00C30FC6 /* AOStartViewControllerCollectionViewCell.h */,
 				F23FB72B23375A9B00C30FC6 /* AOStartViewControllerCollectionViewCell.m */,
 				F23FB715233677F400C30FC6 /* tabBarControllers */,
@@ -311,6 +316,7 @@
 				F23FB6DF23364CE300C30FC6 /* LoginViewController.m in Sources */,
 				F23FB711233672BA00C30FC6 /* RouterViewController.m in Sources */,
 				F23FB71E2336A19700C30FC6 /* AOResultModel.m in Sources */,
+				F23FB7332337B8A900C30FC6 /* AOSecondPictureViewController.m in Sources */,
 				F23FB6EA23364CE400C30FC6 /* main.m in Sources */,
 				F23FB6DC23364CE300C30FC6 /* AppDelegate.m in Sources */,
 				F23FB71B2336A11600C30FC6 /* MainViewControllerTableViewCell.m in Sources */,

@@ -1,36 +1,28 @@
 //
-//  AOPictureViewController.m
+//  AOSecondPicrtureViewController.m
 //  MIPTHackOil
 //
 //  Created by Антон Огурцов on 22/09/2019.
 //  Copyright © 2019 Антон Огурцов. All rights reserved.
 //
 
-#import "AOPictureViewController.h"
 #import "AOSecondPictureViewController.h"
-@interface AOPictureViewController ()
+
+@interface AOSecondPictureViewController ()
 @property(nonatomic, strong)UIImageView* imageView;
+
 @end
 
-@implementation AOPictureViewController
+@implementation AOSecondPictureViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.imageView = [[UIImageView alloc]initWithFrame:CGRectMake(0, 0, self.view.frame.size.width+15, self.view.frame.size.height)];
-    self.imageView.image = [UIImage imageNamed:@"picture"];
+    self.imageView.image = [UIImage imageNamed:@"2picture"];
     [self.view addSubview:self.imageView];
-    UITapGestureRecognizer *singleTap = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(tapDetected)];
-    singleTap.numberOfTapsRequired = 1;
-    [self.imageView setUserInteractionEnabled:YES];
-    [self.imageView addGestureRecognizer:singleTap];
-    
     // Do any additional setup after loading the view.
 }
 
--(void)tapDetected{
-    AOSecondPictureViewController *secondVC = [AOSecondPictureViewController new];
-     [self.navigationController pushViewController:secondVC animated:YES];
-}
 /*
 #pragma mark - Navigation
 
